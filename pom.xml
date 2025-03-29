@@ -5,16 +5,7 @@
     <groupId>com.example</groupId>
     <artifactId>myfirstjob</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 </project>
 
-<packaging>war</packaging>
-<build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-war-plugin</artifactId>
-            <version>3.3.2</version>
-        </plugin>
-    </plugins>
-</build>
+
